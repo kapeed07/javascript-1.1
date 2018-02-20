@@ -3,18 +3,20 @@
 ### Description
 
 * This mini-project will help you get up to speed with variables, arrays, objects and callback functions in JavaScript
-  ### Topics
-  * Variable encapsulation
-    * `var`
-    * `let`
-    * `const`
-  * Data Storage
-    * Objects
-    * Arrays
-  * Programming with functions
-    * `function` keyword
-    * `=>` fat arrow functions
-    * callback functions
+
+### Topics
+
+* Variable encapsulation
+  * `var`
+  * `let`
+  * `const`
+* Data Storage
+  * Objects
+  * Arrays
+* Programming with functions
+  * `function` keyword
+  * `=>` fat arrow functions
+  * callback functions
 
 ### Instructions
 
