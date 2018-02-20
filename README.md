@@ -1,20 +1,22 @@
 # JavaScript I Mini
 
-### Topics
-  * git
-  * GitHub
-  * Node
+### Description
 
-In this mini lab you will get your environment configured and practice the basics of `git`.
+* This mini-project will help you get up to speed with variables, arrays, objects and callback functions in JavaScript
+  ### Topics
+  * Variable encapsulation
+    * `var`
+    * `let`
+    * `const`
+  * Data Storage
+    * Objects
+    * Arrays
+  * Programming with functions
+    * `function` keyword
+    * `=>` fat arrow functions
+    * callback functions
 
 ### Instructions
 
-* Install `git` : https://git-scm.com/downloads
-* Install `node` : https://nodejs.org/en/download/
-* Fork this repo.
-* Clone the fork you made onto your local machine. `git clone <fork_url>`
-* Add a file to the repo called `script.js` that contains a single line of code: `console.log('hello world!');`
-* Add your changes: `git add --all`
-* Commit your changes: `git commit -m "Initial commit"`
-* Push your changes to your fork: `git push origin master`
-* Submit a pull request back to the repo that you forked from (this repo).
+* `Fork` and `clone` this repository from GitHub
+* You'll notice there are [FILL ME IN] files for you to work with.
