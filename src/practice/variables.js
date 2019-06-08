@@ -5,6 +5,7 @@
 */
 
 // code for `name` goes here
+var name = "Deepak Bhardwaj";
 
 /*
   Problem 2: create a variable called `age`:
@@ -12,6 +13,7 @@
 */
 
 // code for `age` goes here
+var age = 24;
 
 /*
   Problem create a variable called `location` and save it to where you're currently sitting. 
@@ -19,6 +21,7 @@
 */
 
 // code for `location` goes here
+var location = "Bangalore";
 
 /*
   Problem create a variable called `faveBook` 
@@ -26,6 +29,7 @@
 */
 
 // code for `faveBook` goes here
+var faveBook = "Learn how to code";
 
 /*
   Problem create a variable called `faveBand` 
@@ -34,13 +38,14 @@
 */
 
 // code for `faveBand` goes here
-
+const faveBand = "xyz";
 /*
   Problem create a variable called `faveFood` 
   LIKE above, you may want to consider if this is some data about yourself that could change.
 */
 
 // code for `faveFood` goes here
+var favFood = "i-don't-know";
 
 module.exports = {
   name,

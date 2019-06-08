@@ -27,6 +27,15 @@
 */
 
 // code greet here.
+function greet(name){
+  console.log(name);
+}
+function greetCaller(callback, name){
+  var name = name;
+  callback(name);
+}
+
+greetCaller(greet, "Deepak");
 
 /*
   Problem 2: forEach
@@ -35,6 +44,10 @@
 const simpsons = ['Marge', 'Lisa', 'Homer', 'Bart', 'Maggie'];
 
 // code for `forEach` goes here
+simpsons.forEach(function(name){
+  greetCaller(greet, name);
+});
+
 
 /*
   Problem 3: every
@@ -43,7 +56,13 @@ const simpsons = ['Marge', 'Lisa', 'Homer', 'Bart', 'Maggie'];
   When you're done, make sure that you finish the code inside of `every` and ensure it works the way it's supposed to
 */
 
-every(simpsons, (/* don't forget your items */) => {
+//every(simpsons, (/* don't forget your items */) => {
   // fill this in.
+  // log each item that comes back to the console.
+//});
+
+every(simpsons, (greetCaller) => {
+  // fill this in.
+  greetCaller(greet, simpsons);
   // log each item that comes back to the console.
 });

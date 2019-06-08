@@ -17,13 +17,19 @@
 */
 
 const justiceLeague = ['Robin', 'Batman', 'Wonder Woman', 'Flash', 'Aquaman'];
+justiceLeague.shift();
+justiceLeague.push("Green Lantern");
+justiceLeague.unshift("Superman");
 
+console.log(justiceLeague);
 /* 
   Problem 2: Middle Earth
   In our list of Characters from Middle Earth remove sauraman. He's a traitor.
 */
 
 const middleEarth = ['Frodo', 'Samwise', 'Gandalf', 'Sauraman', 'Treebeard'];
+middleEarth.push((middleEarth.splice(3)).shift());
+console.log(middleEarth);
 
 /* 
   Problem 3: Numbers
@@ -33,6 +39,10 @@ const middleEarth = ['Frodo', 'Samwise', 'Gandalf', 'Sauraman', 'Treebeard'];
 const numbers = [2, 3, 4, 5, 6];
 
 const numsByTen = numbers; // finish this.
+for(let i = 0; i < numsByTen.length; i++){
+  numsByTen[i] *= 10;
+}
+console.log(numsByTen);
 
 /* 
   Problem 4: Filter Friends
@@ -50,8 +60,19 @@ const friends = [
   { name: 'Rachel', gender: 'M' }
 ];
 
-const femaleFriends = friends; // finish this
-const male = friends; // finish this
+const femaleFriends = [];
+// = friends; // finish this
+const male = [];
+// = friends; // finish this
+friends.forEach(function(friend){
+  if(friend.gender === 'F'){
+    femaleFriends.push(friend);
+  }else{
+    male.push(friend);
+  }
+});
+console.log(femaleFriends);
+console.log(male);
 
 module.exports = {
   justiceLeague,
